@@ -1,0 +1,12 @@
+server:
+  port: 6688
+spring:
+  application:
+    name: eureka-server
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:${server.port}/eureka/   ## 注册中心eurka地址
+    register-with-eureka: false
+    fetch-registry: false

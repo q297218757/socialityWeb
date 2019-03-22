@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      name: search
+      profile: dev
+      label: master
+      uri: http://localhost:9013/
+
+
+
+

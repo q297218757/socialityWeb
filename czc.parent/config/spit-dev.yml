@@ -1,0 +1,12 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: spit-service
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27018
+      database: spitdb
+  redis:
+    host: 127.0.0.1

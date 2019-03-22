@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      name: gathering
+      profile: dev
+      label: master
+      uri: http://localhost:9013/
+
+
+
+
