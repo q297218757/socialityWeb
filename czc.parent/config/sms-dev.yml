@@ -6,12 +6,5 @@ spring:
   rabbitmq:
     host: 127.0.0.1
 
-aliyun:
-  sms:
-    accessKeyId: LTAI5ozH1m4fBJAP
-    accessKeySecret: VjXxEW0OGusrJZRaUJ6OqgVL3wTwbh
-    template_code: SMS_161350039
-    sign_name: 老同学电影
-
 
 
